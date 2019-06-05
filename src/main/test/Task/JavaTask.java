@@ -55,7 +55,7 @@ public class JavaTask {
 
     /**
      * 方法3
-     * @param args
+     * @param
      */
     static class TimerTaskThree extends  TimerTask{
 
@@ -96,6 +96,7 @@ public class JavaTask {
         scheduledExecutorService.schedule(runableTask,10, TimeUnit.SECONDS);
         long end=System.currentTimeMillis();
         System.out.println("任务执行时间"+(end-start));
+        System.out.println("任务测试：");
     }
 
 
